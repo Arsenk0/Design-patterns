@@ -14,3 +14,5 @@ class Decorator(Component):
 
     def operation(self):
         return f"Decorator: {self.component.operation()}"
+#структурний патерн проектування, що дає змогу динамічно додавати
+#об’єктам нову функціональність, загортаючи їх у корисні «обгортки».

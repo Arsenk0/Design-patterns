@@ -14,3 +14,4 @@ class Adapter(Target):
 
     def request(self):
         return self.adaptee.specific_request()
+#Adapter дозволяє змінити інтерфейс одного класу,щоб він став сумісним з іншим класом,не змінюючи його структуру.

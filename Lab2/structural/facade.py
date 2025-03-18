@@ -15,3 +15,4 @@ class Facade:
 
     def operation(self):
         return f"Facade: {self.subsystem_a.operation_a()} {self.subsystem_b.operation_b()}"
+#Фасад дозволяє клієнту працювати з складними системами через єдиний інтерфейс, приховуючи деталі внутрішніх підсистем.

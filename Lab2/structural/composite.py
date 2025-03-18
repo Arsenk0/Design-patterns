@@ -20,3 +20,5 @@ class Composite(Component):
         for child in self.children:
             result += child.operation() + "\n"
         return result
+#Composite дозволяє працювати з деревом об'єктів, де об'єкти можуть бути як одиничними елементами (листами)
+# так і складними (композитами), при цьому клієнт взаємодіє з усіма елементами однаково.
