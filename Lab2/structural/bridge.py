@@ -18,4 +18,3 @@ class Abstraction:
 
     def operation(self):
         return self.implementor.operation()
-#Patten Bridge дозволяє розділити абстракцію та її реалізацію,щоб обидві могли змінюватися незалежно одна від одної
